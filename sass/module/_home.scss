@@ -1,0 +1,35 @@
+// Style for Home Page
+
+// Hero Section
+.co-hero-section{
+	background: url(../images/hero-pix.jpg) 0 0 no-repeat;
+	height: 100vh;
+	background-size: cover;
+	position: relative;
+	&:before{
+		content: " ";
+		position: absolute;
+		left: 0;
+		right: 0;
+		z-index: 1;
+		width: 40%; 
+		background: rgba(0,0,0,0.7);
+		height: 100vh;
+	}
+	h1{
+		font-size: 30px;
+		text-align: center;
+		color: #FFF;
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		z-index: 10;
+		width: 100%;
+		text-transform: uppercase;
+	}
+}
+
+// About Section
+
+
+

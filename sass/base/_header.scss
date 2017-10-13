@@ -1,0 +1,32 @@
+// Header Style
+.co-site-header{
+	position: absolute;
+	width: 100%;
+	z-index: 1000;
+	nav{
+		background-color: transparent;
+		box-shadow: none;
+		height: auto;
+		line-height: inherit;
+		ul{
+			li{
+				a{
+					color: #000;
+				}
+			}
+		}
+	}
+	.co-logo{
+		font-size: 20px;
+		padding-top: 10px;
+		color: #FFF;
+	}
+	.co-nav-icon{
+		a{
+			text-align: right;
+			color: #FFF;
+			font-size: 30px;
+			display: block;
+		}
+	}
+}

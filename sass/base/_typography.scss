@@ -1,0 +1,59 @@
+// Font family for body and heading
+$body-font:    'Poppins', sans-serif;
+$heading-font: 'Poppins', sans-serif;
+
+// Declare Font Sizes
+$basefont-size: 16px;
+$fontsize18   : 18px;
+$fontsize20   : 20px;
+$fontsize22   : 22px;
+$fontsize24   : 24px;
+$fontsize26   : 26px;
+$fontsize28   : 28px;
+$fontsize30   : 30px;
+
+
+$headingh1: 55px;
+$headingh2: 36px;
+$headingh3: 30px;
+$headingh4: 24px;
+$headingh5: 18px;
+$headingh6: 16px;
+
+
+
+
+// Declare Heading Font sizes
+h1{
+  font-size: $headingh1 - 10;
+  font-family: $heading-font;
+}
+h2{
+  font-size: $headingh2;
+  font-family: $heading-font;
+  text-transform: uppercase;
+  span{
+    display: block;
+    font-size: $fontsize24;
+    position: relative;
+    &:before{
+      content: "";
+      position: absolute;
+      bottom: 0;
+      border-bottom: 1px solid #000;
+      width: 100px;
+      
+    }
+  }
+}
+
+
+h4{
+  font-size: $headingh4;
+}
+h5{
+  font-size: $headingh5;
+}
+h6{
+  font-size: $headingh6;
+}
