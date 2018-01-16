@@ -32,4 +32,16 @@
 // About Section
 
 
+// Service Section
+.co-service-section{
+	@include background-image(linear-gradient(left, #1e5799 45%, #7db9e8 45%));
+	.co-service-icon-panel{
+		background: #FFF;
+		height: 200px;
+		margin-left: -20px;
+	}
+}
+
+
+
 
