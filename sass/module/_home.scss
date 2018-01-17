@@ -30,18 +30,60 @@
 }
 
 // About Section
-
-
-// Service Section
-.co-service-section{
-	@include background-image(linear-gradient(left, #1e5799 45%, #7db9e8 45%));
-	.co-service-icon-panel{
-		background: #FFF;
-		height: 200px;
-		margin-left: -20px;
+.co-about-section{
+	.co-article-pix{
+		img{
+			width: 100%;
+		}
 	}
 }
 
 
 
 
+// Service Section
+.co-service-section{
+	color: #FFF;
+	@include background-image(linear-gradient(top, #1e5799 45%, #7db9e8 45%));
+	// @include background-image(linear-gradient(left, #1e5799 45%, #7db9e8 45%));
+	.co-service-icon-panel{
+		background: #FFF;
+		// margin-left: -20px; 
+		margin-top: 40px;
+		color: #000;
+		@include breakpoint(mobilelarge){
+			margin-top: 0;
+		}
+		.o-service-block{
+			padding: 10px 30px 0 30px;
+			h3{
+				font-size: 16px;
+				text-transform: uppercase;
+				margin-top: 10px;
+			}
+			i{
+				font-size: 30px;
+			}
+		}
+	}
+}
+
+// Portfolio Section
+.co-portfolio-section{
+	background: #D8D8D8;
+	.co-portfolio-item{
+		ul{
+			padding: 0;
+			margin: 0;
+			li{
+				width: 50%;
+				float: left;
+				padding: 0;
+				margin: 0;
+				img{
+					width: 100%;
+				}
+			}
+		}
+	}
+}
